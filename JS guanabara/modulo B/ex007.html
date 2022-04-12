@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somando números</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+ <main> 
+   
+    <h1> Somando valores</h1>
+
+<form> 
+    <input   type="number" name=" txtn1" id= "txtn1" > + 
+    <input   type=" number" name="txtn2" id="txtn2" >
+    <input class="color"   type="button" value="somar" onclick=" somar() " >
+   
+    <div id="res"> Resultado  </div>
+</form>
+
+</main>
+
+    <!-- código em JS -->
+
+    <script>
+            function somar() 
+        {
+            var tn1 = window.document.getElementById("txtn1") // o txtn1 vem no input que coloca no HTML 
+            var tn2 = window.document.querySelector("input#txtn2")// input botao # indica o ID que se chama txtn2 por isso input#txtn1
+            var res = window.document.getElementById('res') // o elemento res vem da div que demos  o nome de "res"
+            var n1 = Number(tn1.value) // criamos uma variável para colocar oque foi digitado no imput q é um string ai colocar dentro da váriavel com number (p explicar q é numero)
+            var n2 = Number(tn2.value) 
+            var s = n1 +n2
+            res.innerHTML = `A soma entre ${n1} e  ${n2} é igual a :  <strong>${s}</strong>` // resultado exibido na tela 
+        }
+
+    </script>
+</body>
+</html>

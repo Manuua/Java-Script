@@ -1,0 +1,40 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Permanent+Marker&display=swap');
+
+body {background-color: rgb(58, 137, 189);}
+h4{
+    font-family: 'Permanent Marker', cursive;
+      text-align: center;
+      font-size: 2em;}
+      p{
+        font-family: 'Permanent Marker', cursive;
+        font-size: 1em;
+        background-color: rgb(58, 137, 189);
+        text-align: center;
+      }
+
+.card {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    margin: auto;
+    padding: 10px ;
+    border-radius: 10px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+  ul{
+    text-align: start;
+    
+    list-style-type:"\1F433" 	;
+    list-style-position: inside;
+    line-height: 2;
+    
+}

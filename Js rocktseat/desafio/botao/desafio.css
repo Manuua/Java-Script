@@ -1,0 +1,55 @@
+
+
+.toggle{
+     display: none; 
+     align-content: center;      
+   
+} 
+.toggle + label{
+    
+    width: 130px;
+    height: 50px;
+    background: black;
+    display: block;
+    position: absolute;
+    border-radius: 30px;
+    padding: 2px;
+    transition: 200ms;
+    cursor: pointer;
+    top:  600px ;
+    left: 600px;
+    
+
+}
+.toggle + label:before{
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: white;
+    display: flex;
+    border-radius:  50%;
+    right: unset;
+    left: 2px;
+    top: 2px;
+    transition: 200ms;
+}
+.toggle:checked + label{
+    background:black;
+}
+.toggle:checked + label:before{
+    content: '';
+    left: 80px;
+    box-shadow: 0 4px 4px rgb(0, 0/ 10%);
+}
+.favicon{
+width: auto;
+height: 50px;
+
+}
+.favicondia{
+    width: auto;
+    height: 50px;
+    margin-left: 23px;
+    
+}

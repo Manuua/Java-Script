@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando Js</title>
+    <style>
+        body{
+            background-color: blanchedalmond;
+        }
+    </style>
+</head>
+<body>
+    <h1> Let's practice </h1>
+
+    <script> 
+
+    // Guardando oque foi digitado dentro de um prompt()
+
+        var nome = (window.prompt (`Digite seu primeiro nome :`) )
+        var sobrenome = (window.prompt (`Digite seu ultimo nome :`))
+        var nomesobrenome = (nome + sobrenome)
+
+        window.alert (`seu nome e sobrenome é :  ${nomesobrenome}`)
+
+    // Número  digitado em um prompt () sendo usado em um cálculo
+
+        var n1 = Number( window.prompt (`Digite um número:`))
+        var n2 = Number(window.prompt (`Digite outro número:`))
+        var soma = n1 + n2
+
+        window.alert(`A soma dos numeros digitados é : ${soma}`)
+
+    // Texto com letras maiúsculas e minuscúlas 
+
+       var palavra = (window.prompt(`Digite uma palavra :`))
+       document.writeln(`seu nome em maiusculas é ${palavra.toUpperCase()}</br>`)
+       document.writeln(`seu nome em letra minúscula é : ${palavra.toLowerCase()}</br>`)
+    
+    </script>
+
+    
+</body>
+</html>
