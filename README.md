@@ -5,3 +5,5 @@ Atividades realizadas no curso de JS
 - Desafios usando OOP 
 - Desafios com Arrays 
 - Atividades desenvolvidas durante as aulas.
+- Estrutura de Dados.
+- Funções.
